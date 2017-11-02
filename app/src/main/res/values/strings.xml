@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Editorial Planeta</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="idlibro">ID</string>
+    <string name="nombredl">Nombre del libro</string>
+    <string name="nombreda">Nombre del autor</string>
+    <string name="nombredp">Nombre de quien lo presta</string>
+    <string name="num">Numero de telefono</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Actualizar">Editar</string>
+    <string name="read">Read</string>
+    <string name="Borrar">Eliminar</string>
+    <string name="Prestamo">Prestamo</string>
+    <string name="Lista">Lista</string>
+    <string name="leer">Leer</string>
+</resources>

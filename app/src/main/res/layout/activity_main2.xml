@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maoz1.editorialplaneta.Main2Activity">
+
+
+    <EditText
+        android:id="@+id/eId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/idlibro"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/enombredl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/nombredl"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/enombreda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/nombreda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/enombredp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/nombredp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/num"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar"
+        android:onClick="onClick"
+        android:id="@+id/bIngresar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leer"
+        android:onClick="onClick"
+        android:id="@+id/bLeer"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Actualizar"
+        android:onClick="onClick"
+        android:id="@+id/bEditar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Borrar"
+        android:onClick="onClick"
+        android:id="@+id/bEliminar"/>
+
+
+</LinearLayout>
